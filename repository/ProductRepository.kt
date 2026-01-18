@@ -22,6 +22,7 @@ class ProductRepository {
             name = response.name,
             description = "",
             price = response.price,
+            currency = response.currency,
             stockQuantity = response.stockQuantity,
             category = response.category,
             imageUrl = null,
